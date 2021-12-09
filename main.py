@@ -5,7 +5,7 @@ import os
 #from aiogram import Bot, Dispatcher,executor, types
 from aiogram.types import InlineQueryResultGame
 #from aiogram.handlers import CallbackQueryHandler
-BOT_TOKEN = os.environ['API_TOKEN']
+BOT_TOKEN = ''
 logging.basicConfig(level=logging.INFO)
 url='https://examsforcareers.herokuapp.com'
 game_short_name='Chitchat'
