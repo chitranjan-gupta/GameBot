@@ -7,7 +7,7 @@ from aiogram.types import InlineQueryResultGame
 #from aiogram.handlers import CallbackQueryHandler
 BOT_TOKEN = os.environ.get('token')
 logging.basicConfig(level=logging.INFO)
-url='https://examsforcareers.herokuapp.com'
+url='https://examsforcareers.vercel.app'
 game_short_name='Chitchat'
 bot = Bot(token=BOT_TOKEN)
 disp = Dispatcher(bot=bot)
